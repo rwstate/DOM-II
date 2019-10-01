@@ -47,3 +47,6 @@ busImg.addEventListener("dragend", event => event.target.style.opacity = "1")
 window.addEventListener("resize", event => body.style.backgroundColor = "salmon")
 
 header.addEventListener("mousemove", event => {event.target.style.backgroundColor = "brown"})
+
+let test = querySelector(".block--red");
+test.addEventListener("click", event => {event.target.style.backgroundColor = "white"})
